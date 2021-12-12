@@ -1,0 +1,106 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #2D7DA2;
+}
+
+.container {
+    background-color: white;
+    /* text-align: center; */
+    width: 350px;
+    height: 320px;
+    margin: auto;
+    border-radius: 8px;
+    transform: translateY(120px);
+}
+
+
+.heading {
+    position: relative;
+    background-color: rgb(87, 32, 126);
+    height: 60px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+
+.heading h2 {
+    position: absolute;
+    position: relative;
+top: 50%;
+transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+color: white;
+font-weight: bold;
+font-size: 2rem;
+}
+
+
+.input {
+    text-align: center;
+    margin: 30px;
+}
+
+.input input {
+    border: 0.5px solid gray;
+    padding: 8px 10px 8px 50px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 220px;
+}
+
+.fa {
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px;
+    height: 22px;
+    width: 35px;
+    background-color: #01487C;
+    border-radius: 5px 0 0 5px;
+}
+
+.input1 i {
+    position: absolute;
+}
+
+.input2 i {
+    position: absolute;
+}
+
+.fp {
+    text-align: left;
+    
+}
+
+.fp a {
+   margin: 40px  auto 20px 5px;
+    font-size: 1.1rem;
+    color: gray;
+}
+
+
+.btn {
+    cursor: pointer;
+    color: white;
+    font-size: 1.2rem;
+    width: 80%;
+    background-color: rgb(78, 26, 146);
+    border: none;
+    height: 35px;
+    border-radius: 5px;
+    margin: 15px 10px 0 10px;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(78, 26, 146, 0.7);
+}
+
+.container p {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
